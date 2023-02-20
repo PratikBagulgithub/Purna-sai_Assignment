@@ -111,15 +111,12 @@ keys = ['name', 'age', 'city']
 values = ['Jane', 25, 'Los Angeles']
 my_dict = dict(zip(keys, values))
 print(my_dict)
-
+# __________________________________________________________________________________________________________________________________________________________
 """# 2 . Working on 3 modes of files operations with examples in python
 # (read ,write ,append)
-
 ---
-
-
 """
-
+# ____________________________________________________________________________________________________________________________________________________________
 # writing into a file 
 with open('a.txt', 'w') as file:
     file.write("Hii  everyone !\nI am Purna sai from sathyabama university .")
@@ -136,8 +133,9 @@ with open('a.txt', 'a') as file:
 with open('a.txt', 'r') as file:
     content = file.read()
     print(content)
-
+# ________________________________________________________________________________________________________________________________________________________
 """# **3 . Calculator :**"""
+# ________________________________________________________________________________________________________________________________________________________
 
 with open('calculator_output.txt', 'w') as file:
 
